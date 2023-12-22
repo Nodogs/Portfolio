@@ -19,7 +19,8 @@
     "react-parallax-tilt": "^1.7.177",
     "react-router-dom": "^6.8.1",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.160.0",
+    "three-mesh-bvh": "^0.6.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
@@ -29,5 +30,17 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)",
+  "main": "vite.config.js",
+  "author": "Noah Merone",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nodogs/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nodogs/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nodogs/Portfolio#readme"
 }
