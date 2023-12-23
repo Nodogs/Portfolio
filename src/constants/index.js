@@ -1,4 +1,14 @@
 import {
+  daf,
+  tom,
+  contactManagement,
+  dataManagement,
+  datastructures,
+  datascience,
+  machinelearning,
+  gamedevelopment,
+  awsjam,
+  awscloud,
   mobile,
   backend,
   creator,
@@ -16,13 +26,22 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  ge,
+  target,
+  travelers,
+  toh,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  c,
+  cplus,
+  csharp,
+  java,
+  python,
+  sql,
+  swift,
+  // jobit,
+  // tripguide,
+  // threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,30 +61,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Computer Engineering Master's (2025)",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Computer Engineering Bachelor's",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Electrical Engineering Bachelor's",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cybersecurity (Transferred)",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -73,98 +92,115 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C",
+    icon: c,
   },
   {
-    name: "React JS",
+    name: "C++",
+    icon: cplus,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Swift",
+    icon: swift,
+  },
+  {
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "SQL",
+    icon: sql,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Data Structures",
+  //   icon: datastructures,
+  // },
+  // {
+  //   name: "Data Science",
+  //   icon: datascience,
+  // },
+  // {
+  //   name: "Machine Learning",
+  //   icon: machinelearning,
+  // },
+  // {
+  //   name: "Game Development",
+  //   icon: gamedevelopment,
+  // },
+  // {
+  //   name: "AWS Cloud Jam",
+  //   icon: awsjam,
+  // },
+  // {
+  //   name: "AWS Cloud Practitioner",
+  //   icon: awscloud,
+  // },
 ];
 
 const experiences = [
+
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Fulfillment Expert Captain",
+    company_name: "Target",
+    icon: target,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2020 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ranked within the top 5% in the district for gross revenue",
+      "Promoted to captain for diverse knowledge, involvement, and for being a leader within the company",
+      "Programmed products to enable RFID capabilities to find items 80% faster ",
+      "Created custom barcodes to allow 50% faster productivity",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Renewable Energy Technical Training",
+    company_name: "General Electric",
+    icon: ge,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Summer 2021 - Internship",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Operated, maintained, and installed various types of solar, wind, and hydrogen energy systems for 5 clients, reducing their carbon footprint by 0.246 tons per year",
+      "Learned how to safely work with 3 different technologies and increased the efficiency of those systems by 80%",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Assistant Electrical Engineer Internship",
+    company_name: "Town of Hempstead Department of Conservation & Waterways",
+    icon: toh,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Summer 2022 - Internship",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and applied electrical engineering solutions to reroute wires from one transformer to another, reducing the load by 50% and extending the life span of both transformers by 10 years",
+      "Collaborated with the head electrical engineer to test electrical components, ensuring 100% performance and compliance with safety standards",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "Travelers",
+    icon: travelers,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed, developed, tested, and deployed scalable and reliable software solutions for various projects",
+      "Worked closely with a team of developers, designers, product managers, and stakeholders to deliver high-quality products and features that met user needs and business goals",
+      "Applied agile methodologies and best practices to ensure timely and efficient delivery of software products and features",
+      "Enhanced software performance, security, and usability by conducting code reviews, unit testing, refactoring, and documentation",
     ],
   },
 ];
@@ -198,7 +234,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dynamic Application Framework",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -215,7 +251,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: daf,
     source_code_link: "https://github.com/",
   },
   {
@@ -236,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: dataManagement,
     source_code_link: "https://github.com/",
   },
   {
@@ -257,7 +293,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: contactManagement,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tom,
     source_code_link: "https://github.com/",
   },
 ];
