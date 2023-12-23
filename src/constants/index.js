@@ -1,4 +1,5 @@
 import {
+  rc,
   daf,
   tom,
   contactManagement,
@@ -239,15 +240,15 @@ const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
@@ -255,20 +256,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Data Management",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
@@ -276,20 +277,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Contact Manager",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Introducing our cutting-edge call summary AI system powered by OpenAI technology. With the advanced transcription capabilities of OpenAI Whisper API, we effortlessly capture and transcribe customer calls, while leveraging the intelligence of ChatGPT to summarize key points. This seamless integration not only ensures 100% customer satisfaction by preserving intricate conversation details but also provides a user-friendly platform for customers to easily access and revisit their discussions, setting a new standard for unparalleled customer experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
     ],
@@ -297,24 +298,45 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "TOM",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Experience unparalleled efficiency with our Automated AI Team Meeting Summary Bot. Seamlessly generating detailed summaries and meeting minutes, it goes beyond by analyzing speaker participation and effectiveness, presenting insightful charts and analytics across various timeframes. Elevating productivity, the bot also decodes acronyms, ensuring clear communication and fostering enhanced meeting efficiency for your team.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
     ],
     image: tom,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Senior Design Project",
+    description:
+      "Presenting my groundbreaking senior design project—an autonomous RC car meticulously crafted from design to execution. I skillfully designed, built, and programmed the car using diverse components and programming languages, ensuring a harmonious integration for optimal performance. With CAD drawings guaranteeing structural integrity, safety, and the seamless integration of lidar, radar, and cameras, this project exemplifies my expertise in creating an autonomous vehicle capable of navigating predefined paths and intelligently avoiding obstacles.",
+    tags: [
+      {
+        name: "CAD",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Electrical Engineering",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rc,
     source_code_link: "https://github.com/",
   },
 ];

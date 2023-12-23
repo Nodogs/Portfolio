@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -47,8 +47,10 @@ import daf from "./daf.png";
 import contactManagement from "./contactManagement.png";
 import dataManagement from "./dataManagement.png";
 import tom from "./tom.png";
+import rc from "./rc.jpg";
 
 export {
+  rc,
   daf,
   tom,
   contactManagement,
