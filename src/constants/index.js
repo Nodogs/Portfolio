@@ -209,27 +209,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I've embraced the role of a mentor since the inception of the program, dedicating my time to assist both new and seasoned team members in enhancing their job responsibilities for the benefit of the company. This commitment to mentorship reflects my dedication to fostering efficiency and growth among my colleagues. Being chosen as a mentor is a testament to my leadership abilities and capacity to effectively balance this role while efficiently handling my own job responsibilities. It's a role that not only allows me to contribute to the development of others but also reinforces my position as a capable leader within the organization.",
+    name: "Mentorship",
+    designation: "Member",
+    company: "Travelers",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I have had the privilege of serving as a co-lead for the club “Line of Business (LOB) Peer & Leadership Networking”, where I facilitate networking opportunities and knowledge sharing among colleagues. In this role, I engage with senior executives and leaders within the company, providing a platform for others to witness and learn from their experiences and journeys to their current positions. By fostering these interactions, I aim to inspire and educate colleagues at all levels within the organization, offering valuable insights into the paths to leadership roles and how individuals can aspire to achieve similar career milestones. This role has not only enhanced my leadership and organizational skills but has also allowed me to contribute to the professional development of my peers.",
+    name: "Leadership and Networking",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I have actively pursued a master’s program in Computer Engineering, focusing on advanced topics and cutting-edge technologies. This ongoing education is not only enriching my technical knowledge but also preparing me to make more significant contributions to Travelers. By attaining a master’s degree in computer engineering, I aim to leverage a deeper understanding of complex systems, emerging trends, and specialized skills that will enable me to play a pivotal role in solving complex challenges within the company. This advanced degree will equip me to provide valuable insights and innovations beyond the capabilities of a bachelor's degree, ultimately contributing to Travelers' technological advancement and success.",
+    name: "Educational Advancement",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "I'm responsible for vetting external training programs to ensure our team members receive high-quality resources for cloud application setup. This process equips our teams with the latest industry practices, benefiting other teams across the organization. With everyone well-versed in cloud best practices, it streamlines the process for my team to provide support and accelerate the deployment of other teams' applications to the cloud. This collaboration enhances overall operational efficiency and the effectiveness of our cloud services.",
+    name: "External Training Verification",
+  },
+  {
+    testimonial:
+      "At Travelers, I've been fortunate to engage with prominent figures like Daymond John and other industry leaders. This unique opportunity allows me to ask insightful questions and gain invaluable insights and perspectives from accomplished entrepreneurs and professionals. These interactions play a pivotal role in shaping my career as I learn from their experiences and adopt their mindsets. This exposure to industry giants not only enriches my knowledge but also empowers me to navigate my career path more effectively, aiming to follow in their footsteps and achieve greater success.",
+    name: "Engagement with Industry Leaders",
+  },
+  {
+    testimonial:
+      "Collaborated with professors and peers to design efficient circuits, networks, and software.",
+    name: "IEEE Club",
   },
 ];
 
@@ -237,7 +252,7 @@ const projects = [
   {
     name: "Dynamic Application Framework",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "In my role on the Dynamic Application Framework project, I led the development of the front-end user interface and back-end aspects. This project aimed to simplify project management within our organization, replacing the manual use of Excel spreadsheets with an efficient and user-friendly system. The Dynamic Application Framework allows any team within the company to set up and manage projects quickly, with advanced filtering capabilities that enhance the ability to track and modify project configurations. This project significantly reduces time and cost inefficiencies, ensuring resources are allocated efficiently, making it a valuable addition to our organization.",
     tags: [
       {
         name: "React",
@@ -256,9 +271,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Data Management",
+    name: "Cloud Intake Infrastructure",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I played a pivotal role in creating the cloud intake Infrastructure project. This initiative has not only streamlined cloud usage and improved the efficiency of our operations but have also facilitated other teams in the organization. By automating the cloud service creation process, we have empowered other teams to create cloud services without the need to contact our team for assistance. This automation has not only reduced turnaround time but has also allowed our team to allocate more time to address critical issues and support other teams with their important requirements, contributing to a more efficient and collaborative work environment.",
     tags: [
       {
         name: "React",
@@ -277,9 +292,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Contact Manager",
+    name: "Call Summary AI System",
     description:
-      "Introducing our cutting-edge call summary AI system powered by OpenAI technology. With the advanced transcription capabilities of OpenAI Whisper API, we effortlessly capture and transcribe customer calls, while leveraging the intelligence of ChatGPT to summarize key points. This seamless integration not only ensures 100% customer satisfaction by preserving intricate conversation details but also provides a user-friendly platform for customers to easily access and revisit their discussions, setting a new standard for unparalleled customer experience.",
+      "I played a pivotal role in the development of an innovative AI system designed to revolutionize our customer call interactions. This system actively listens to customer calls, identifying speakers and capturing dialogue at precise timestamps, providing comprehensive summaries of key call points. These summaries are shared with customers, enabling them to revisit the conversation details and ask follow-up questions conveniently through email. Powered by the OpenAI Whisper API for transcription and OpenAI ChatGPT for summarization, the system efficiently converts conversations into text and compiles essential information, which is then sent to representatives for review, allowing them to refine and add details as needed before sending a detailed record back to the customer. This project can greatly improve the customer experience, ensuring clarity and accessibility in post-call interactions.",
     tags: [
       {
         name: "React",
@@ -298,9 +313,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "TOM",
+    name: "Automated AI Team Meeting Summary Bot",
     description:
-      "Experience unparalleled efficiency with our Automated AI Team Meeting Summary Bot. Seamlessly generating detailed summaries and meeting minutes, it goes beyond by analyzing speaker participation and effectiveness, presenting insightful charts and analytics across various timeframes. Elevating productivity, the bot also decodes acronyms, ensuring clear communication and fostering enhanced meeting efficiency for your team.",
+      "I played a key role in developing an innovative AI-driven bot designed to revolutionize our team meetings. This bot seamlessly integrated into our virtual meetings, actively listening to conversations and discerning speakers and their dialogue with precision. It provided comprehensive meeting summaries, highlighting key points, and even rated the effectiveness of each participant's contributions. Additionally, the bot utilized an extensive acronym database to decode any acronyms used during discussions, making the summaries even more accessible. The bot's capabilities extended to generating detailed charts and analytics, including time distribution for each participant, acronym usage, attendance metrics, and meeting efficiency data, spanning various timeframes from individual sessions to monthly or yearly aggregates. This project can significantly enhance our meeting productivity and knowledge sharing practices.",
     tags: [
       {
         name: "React",
@@ -319,7 +334,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Senior Design Project",
+    name: "Autonomous RC Car",
     description:
       "Presenting my groundbreaking senior design project—an autonomous RC car meticulously crafted from design to execution. I skillfully designed, built, and programmed the car using diverse components and programming languages, ensuring a harmonious integration for optimal performance. With CAD drawings guaranteeing structural integrity, safety, and the seamless integration of lidar, radar, and cameras, this project exemplifies my expertise in creating an autonomous vehicle capable of navigating predefined paths and intelligently avoiding obstacles.",
     tags: [
