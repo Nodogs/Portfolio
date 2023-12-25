@@ -1,15 +1,4 @@
 import {
-  rc,
-  daf,
-  tom,
-  contactManagement,
-  dataManagement,
-  datastructures,
-  datascience,
-  machinelearning,
-  gamedevelopment,
-  awsjam,
-  awscloud,
   mobile,
   backend,
   creator,
@@ -26,13 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
-  ge,
-  target,
-  travelers,
-  toh,
-  tesla,
-  shopify,
+
   c,
   cplus,
   csharp,
@@ -40,9 +23,28 @@ import {
   python,
   sql,
   swift,
-  // jobit,
-  // tripguide,
-  // threejs,
+
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+
+  ge,
+  target,
+  toh,
+  travelers,
+
+  carrent,
+  jobit,
+  tripguide,
+
+  daf,
+  dataManagement,
+  contactManagement,
+  rc,
+  tom,
+
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -252,7 +254,7 @@ const projects = [
   {
     name: "Dynamic Application Framework",
     description:
-      "In my role on the Dynamic Application Framework project, I led the development of the front-end user interface and back-end aspects. This project aimed to simplify project management within our organization, replacing the manual use of Excel spreadsheets with an efficient and user-friendly system. The Dynamic Application Framework allows any team within the company to set up and manage projects quickly, with advanced filtering capabilities that enhance the ability to track and modify project configurations. This project significantly reduces time and cost inefficiencies, ensuring resources are allocated efficiently, making it a valuable addition to our organization.",
+      "I spearheaded the end-to-end development of the Dynamic Application Framework project, streamlining project management across the organization by replacing manual Excel processes with an efficient and user-friendly system, ultimately reducing time and cost inefficiencies while enhancing resource allocation.",
     tags: [
       {
         name: "React",
@@ -273,7 +275,7 @@ const projects = [
   {
     name: "Cloud Intake Infrastructure",
     description:
-      "I played a pivotal role in creating the cloud intake Infrastructure project. This initiative has not only streamlined cloud usage and improved the efficiency of our operations but have also facilitated other teams in the organization. By automating the cloud service creation process, we have empowered other teams to create cloud services without the need to contact our team for assistance. This automation has not only reduced turnaround time but has also allowed our team to allocate more time to address critical issues and support other teams with their important requirements, contributing to a more efficient and collaborative work environment.",
+      "I played a crucial role in establishing the Cloud Intake Infrastructure project, which streamlined cloud usage, enhanced operational efficiency, and empowered teams across the organization by automating cloud service creation, reducing turnaround time, and enabling our team to focus on critical issues and support collaborative work environments.",
     tags: [
       {
         name: "React",
@@ -294,7 +296,7 @@ const projects = [
   {
     name: "Call Summary AI System",
     description:
-      "I played a pivotal role in the development of an innovative AI system designed to revolutionize our customer call interactions. This system actively listens to customer calls, identifying speakers and capturing dialogue at precise timestamps, providing comprehensive summaries of key call points. These summaries are shared with customers, enabling them to revisit the conversation details and ask follow-up questions conveniently through email. Powered by the OpenAI Whisper API for transcription and OpenAI ChatGPT for summarization, the system efficiently converts conversations into text and compiles essential information, which is then sent to representatives for review, allowing them to refine and add details as needed before sending a detailed record back to the customer. This project can greatly improve the customer experience, ensuring clarity and accessibility in post-call interactions.",
+      "I played a pivotal role in developing an innovative AI system that enhances customer call interactions by actively listening to and summarizing conversations, utilizing OpenAI Whisper API for transcription and OpenAI ChatGPT for summarization, ultimately providing customers with detailed, email-accessible summaries that can significantly improve post-call clarity and accessibility.",
     tags: [
       {
         name: "React",
@@ -315,7 +317,7 @@ const projects = [
   {
     name: "Automated AI Team Meeting Summary Bot",
     description:
-      "I played a key role in developing an innovative AI-driven bot designed to revolutionize our team meetings. This bot seamlessly integrated into our virtual meetings, actively listening to conversations and discerning speakers and their dialogue with precision. It provided comprehensive meeting summaries, highlighting key points, and even rated the effectiveness of each participant's contributions. Additionally, the bot utilized an extensive acronym database to decode any acronyms used during discussions, making the summaries even more accessible. The bot's capabilities extended to generating detailed charts and analytics, including time distribution for each participant, acronym usage, attendance metrics, and meeting efficiency data, spanning various timeframes from individual sessions to monthly or yearly aggregates. This project can significantly enhance our meeting productivity and knowledge sharing practices.",
+      "I played a key role in developing an innovative AI-driven bot that enhances team meetings by seamlessly integrating into virtual sessions, actively summarizing conversations, discerning speakers, rating participant contributions, decoding acronyms, and generating detailed charts and analytics, ultimately improving meeting productivity and knowledge sharing practices.",
     tags: [
       {
         name: "React",
@@ -336,7 +338,7 @@ const projects = [
   {
     name: "Autonomous RC Car",
     description:
-      "Presenting my groundbreaking senior design project—an autonomous RC car meticulously crafted from design to execution. I skillfully designed, built, and programmed the car using diverse components and programming languages, ensuring a harmonious integration for optimal performance. With CAD drawings guaranteeing structural integrity, safety, and the seamless integration of lidar, radar, and cameras, this project exemplifies my expertise in creating an autonomous vehicle capable of navigating predefined paths and intelligently avoiding obstacles.",
+      "I designed, built, and programmed an autonomous car with integrated sensors (lidar, radar, and cameras), utilizing various components and languages, and created CAD drawings to ensure structural integrity and safety, enabling the car to autonomously navigate predefined paths and avoid obstacles.",
     tags: [
       {
         name: "CAD",

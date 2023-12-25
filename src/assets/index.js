@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+
 import c from "./tech/c.png";
 import cplus from "./tech/cplus.png";
 import csharp from "./tech/csharp.png";
@@ -27,40 +28,28 @@ import java from "./tech/java.png";
 import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import swift from "./tech/swift.png";
-import datastructures from "./tech/datastructures.png";
-import datascience from "./tech/datascience.png";
-import machinelearning from "./tech/machinelearning.png";
-import gamedevelopment from "./tech/gamedevelopment.png";
-import awsjam from "./tech/awsjam.png";
-import awscloud from "./tech/awscloud.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
 import ge from "./company/ge.png";
 import target from "./company/target.png";
 import toh from "./company/toh.png";
 import travelers from "./company/travelers.png";
 
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
+
 import daf from "./daf.png";
-import contactManagement from "./contactManagement.png";
 import dataManagement from "./dataManagement.png";
-import tom from "./tom.png";
+import contactManagement from "./contactManagement.png";
 import rc from "./rc.jpg";
+import tom from "./tom.png";
 
 export {
-  rc,
-  daf,
-  tom,
-  contactManagement,
-  dataManagement,
-  datastructures,
-  datascience,
-  machinelearning,
-  gamedevelopment,
-  awsjam,
-  awscloud,
   logo,
   backend,
   creator,
@@ -70,13 +59,6 @@ export {
   menu,
   close,
   css,
-  c,
-  cplus,
-  csharp,
-  java,
-  python,
-  sql,
-  swift,
   docker,
   figma,
   git,
@@ -89,12 +71,32 @@ export {
   tailwind,
   typescript,
   threejs,
+
+  c,
+  cplus,
+  csharp,
+  java,
+  python,
+  sql,
+  swift,
+
   meta,
   shopify,
   starbucks,
+  tesla,
+
   ge,
   target,
   toh,
   travelers,
-  tesla,
+
+  carrent,
+  jobit,
+  tripguide,
+
+  daf,
+  dataManagement,
+  contactManagement,
+  rc,
+  tom,
 };
