@@ -10,7 +10,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const Works = () => {
   return (
-    <>      <div style={{ height: '120px', width: '100%' }}/>
+    <>
+        <div style={{ height: '100px', width: '100%' }}></div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
