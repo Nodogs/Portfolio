@@ -4,17 +4,10 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
 
   c,
   cplus,
@@ -24,27 +17,16 @@ import {
   sql,
   swift,
 
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-
   ge,
   target,
   toh,
   travelers,
-
-  carrent,
-  jobit,
-  tripguide,
 
   daf,
   dataManagement,
   contactManagement,
   rc,
   tom,
-
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -64,15 +46,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Computer Engineering Master's (2025)",
+    title: "Computer Engineering (M.S. 2025)",
     icon: web,
   },
   {
-    title: "Computer Engineering Bachelor's",
+    title: "Computer Engineering (B.S.)",
     icon: mobile,
   },
   {
-    title: "Electrical Engineering Bachelor's",
+    title: "Electrical Engineering (B.S.)",
     icon: backend,
   },
   {
