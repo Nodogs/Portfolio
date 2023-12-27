@@ -22,7 +22,7 @@ const Earth = () => {
         <pointLight intensity={1} />
         <primitive
           object={earth.scene}
-          scale={.21} position-y={0} rotation-y={0} />
+          scale={2.6} position-y={0} rotation-y={0} />
       </mesh>
     );
   };
