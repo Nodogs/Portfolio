@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Portfolio",
+    "slug": "portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./public/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./public/logo.png",
+      "bundler": "webpack"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb82f861-f573-4b44-aece-940fd437adb8"
+      }
+    }
+  }
+}
